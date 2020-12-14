@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.bgBlanco{
+    background: #fff;
+}
+
+.datosComp{
+    font-size: 12px;
+}
+.datosComp2{
+    font-size: 14px;
+}
+
+.flechaSubir{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+a.delete{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
